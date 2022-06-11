@@ -1,6 +1,6 @@
-/* .hidden{
+.hidden{
     display: none;
-} */
+}
 body{
     background-color: rgb(175, 150, 197);
     overflow: hidden;
@@ -12,7 +12,7 @@ body{
     margin-top: 100px;
 }
 .left{
-    background-color: rgb(122, 79, 142);
+    background-color: rgb(160, 108, 218);
     /* border: 2px solid rgb(192, 112, 228); */
     width: 30%;
     height: 600px;
@@ -123,22 +123,27 @@ body{
 .middle{
     width: 200px;
 }
-.newgame{
+.btnnewgame{
     font-size: 25px;
-    margin: auto;
-    background-color: antiquewhite;
+    background-color: rgb(215, 210, 210);
     height: 60px;
-    width: 200px;
+    /* width: 200px; */
+    margin: auto;
+    margin-top: 40px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
     border-radius: 60px;
-    position: relative;
+    /* position: relative; */
     /* left: -100px; */
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
 }
-.newgamepara{
+/* .newgamepara{
     cursor: pointer;
     background-color: antiquewhite;
-}
+} */
 .imagebox{
     margin: auto;
 }
@@ -146,7 +151,7 @@ body{
     /* font-size: 25px; */
     margin: auto;
 }
-.rolldicepara{
+/* .btnrolldice{
     border-radius: 30px;
     margin-bottom: 15px;
     background-color: antiquewhite;
@@ -154,15 +159,15 @@ body{
     justify-content: center;
     border-radius: 30px;
     cursor: pointer;
-}
-.holdpara{
+} */
+/* .holdpara{
     cursor: pointer;
     border-radius: 30px;
     margin-bottom: 15px;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
-}
+} */
 .rollhold{
     display: flex;
     flex-direction: column;
@@ -170,10 +175,22 @@ body{
 }
 .btnrolldice{
     cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 25px;
 }
-.btnnewgame{
+/* .btnnewgame{
     cursor: pointer;
-}
+    
+} */
 .btnhold{
     cursor: pointer;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.active{
+    background-color: aliceblue;
+}
+.winner{
+    background-color: rgb(38, 105, 103);
 }
