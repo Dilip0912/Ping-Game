@@ -59,7 +59,7 @@ hold.addEventListener("click", function () {
     scorecurrent = 0;
     left.classList.toggle("active");
     right.classList.toggle("active");
-    if (scores[activeplayer - 1] >= 10) {
+    if (scores[activeplayer - 1] >= 100) {
       playing = false;
       diceimage.classList.add("hidden");
       activeplayerwinner.classList.add("winner");
